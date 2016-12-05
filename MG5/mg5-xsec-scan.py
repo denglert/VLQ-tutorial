@@ -92,8 +92,9 @@ for sqrt_s in numpy.linspace(sqrt_s_min, sqrt_s_max, sqrt_s_bins):
     print('\nsqrt_s: {:.2f} xsec: {:.2f} +/- {:.2f}\n'.format(  sqrt_s, xsec, xsec_unc ))
 
     ### --- WARNING! --- ###
+    # - This command deletes and entire directory tree
     # - Be very cautious with this command
-    shutil.rmtree(os.path.join(workDir, 'Events', 'run_01'))
+    shutil.rmtree(os.path.join(workDir, 'Events', 'run_01') )
 # - End of for loop - #
 
 # - Write data to file - #
