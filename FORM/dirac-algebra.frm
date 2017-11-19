@@ -2,7 +2,6 @@ Vectors p1, p2, s1, s2;
 Symbols m1, m2;
 
 
-
 Local M2 =
 1/4 *
 (
